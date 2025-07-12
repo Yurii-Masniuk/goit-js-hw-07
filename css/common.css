@@ -16,7 +16,8 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;  
+  column-gap: 48px;
+  row-gap: 24px;
   list-style: none;
   padding: 0;
 }
@@ -26,5 +27,4 @@ body {
   height: auto;
   display: block;
   max-width: 300px;
-  border-radius: 12px;
 }
